@@ -1,0 +1,16 @@
+Compiling C programs requires working with 4 kinds of files
+
+1)Source Code files:End with .c convention that has all the functions and user written code 
+
+2)header files:End with .h convention that has the code of header functions which the source code files can access externally.
+
+3)object files:End with .o or .obj convention.These are output produced by compiler.They contain code and functions in binary form that are not executable by themselves.
+
+4)Binary executables:These are produced as output of the program called "Linker".The linker links together a number of object files to produce a binary file that can be directly executed.These end with .exe in Windows.
+
+Other files include libraries(.a) and shared libraries(.so) which we generally dont deal with.
+
+
+However,Lua compiler produces non-executable binary file that can be loaded into the interpreter.
+
+The advantage of pre-compiling Lua code is that it loads faster and it protects the source code from accidental changes. 

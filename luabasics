@@ -1,0 +1,66 @@
+                                                                    Lua
+2018-12-27 07:44:50.574
+Lua is a scripting language like python
+It is generally used in video games and also used to automate tasks
+it is a non-indent sensitive language
+
+
+Variable types in Lua:
+Number 
+-string
+nil
+boolean
+table
+function
+userdata
+thread
+
+
+Builtin tonumber function converts numbers and strings to numbers
+
+type function returns a string indicating the type of the input
+
+\n creates a new line in print function
+
+\t creates a space between ouptuts in print function
+
+Here \n and \t are called escaped charecters
+
+However in multiline strings escaped charecters are not allowed
+
+Ex:print([[
+one
+two
+three]])
+one
+two
+three
+
+
+The Nil value conceptually means no value.Undefined Variables evaluate to nil.Its not an error
+
+
+Setting Values to nil undefines them and allows them to be garbage collected
+
+We can call collectgarbage() but garbage collector is running automatically 
+
+Variable  Assignments are global by default
+
+Use local to make them local in functions
+
+Lua has exponential operator ^ by default
+
+Division is always floating points even if all the inputs are integers
+
+Lua can handle negative or non-integer inputs
+
+Hash  operator # gives us the length of a string
+=#s
+
+Not equal to is  ~=
+
+0 is considered truthy
+
+
+
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env lua   
+print("Look no hands")
+
+--      This is a single line comment in Lua.
+--[[    This is a multiline comment in lua.
+        The first line tells linux that this is a script file that uses Lua
+        Before the script can be run,the file needs to given permission.We does this by typing the expression "chmod +x looknohands"
+        The command creates an executable called looknohands that can be executed from terminal using the command "./looknohands "
+--]]
+    

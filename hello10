@@ -1,0 +1,11 @@
+#!/usr/bin/env lua
+dofile("hello10.luac")
+
+-- dofile() function will load the binary file "hello10.luac" and executes it.
+
+--[[ To distribute pre-compiled lua programs you need  to ship the .luac file along with stand-alone interpreter script
+     but you dont need to supply the original .lua file 
+    
+     In this case hello10.luac(non exectuable) and hello10(which executes hello10.luac) but you dont need hello10.lua anymore
+     This also prevents from original source code getting damaged.
+]]--
